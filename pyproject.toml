@@ -8,8 +8,8 @@ packages = [{include = "scraper_method_comparison"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-requests = "^2.31.0"
 bs4 = "^0.0.1"
+httpx = "^0.24.1"
 
 
 [build-system]
